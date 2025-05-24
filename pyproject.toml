@@ -1,0 +1,16 @@
+[project]
+name = "psingh-experiments"
+version = "0.1.0"
+description = "A sample Python project for experiments"
+authors = [
+    { name="P Singh", email="psingh@example.com" }
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pydantic"
+]
+
+[tool.setuptools]
+packages = ["psingh_experiments"]
+
